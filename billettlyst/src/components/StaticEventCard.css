@@ -1,0 +1,22 @@
+.static-card {
+  background: #ffffff;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  max-width: 350px;
+}
+
+.static-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.static-card h3 {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.static-card p {
+  margin: 0;
+}

@@ -1,0 +1,44 @@
+.filter-search {
+  color: black;
+}
+
+.filter-search h2,
+.filter-search h3 {
+  font-size: 20px;
+}
+
+.filter-search label {
+  display: inline-block;
+  color: black;
+}
+
+.input,
+.select {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.filter-search button {
+  background-color: rgb(184, 184, 184);
+  color: rgb(0, 0, 0);
+  padding: 4px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.filter-search button:hover {
+  background-color: #8f8f8f;
+}
+
+
+.search-bar input[type="text"] {
+  width: 250px;
+  max-width: 100%;
+}

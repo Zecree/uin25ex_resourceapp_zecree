@@ -1,0 +1,55 @@
+.event-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: black;
+}
+
+.pass-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4.5rem;
+  margin-top: 24px;
+}
+
+.eventcardbutton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eventcardbutton button {
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 14px 10px;
+  border-radius: 0;
+}
+
+.event-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-card h4 {
+  margin: 0;
+}
+
+.artist-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4.5rem;
+}
+
+.les-mer-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.les-mer-btn:hover {
+  background-color: #333;
+}

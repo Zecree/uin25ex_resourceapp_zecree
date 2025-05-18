@@ -1,0 +1,27 @@
+.category-page {
+  color: black;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4.5rem;
+  margin-top: 24px;
+}
+
+
+@media (max-width: 768px) {
+  .category-page,
+  .category-grid,
+  .artist-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    gap: 0;
+  }
+}

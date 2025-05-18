@@ -1,0 +1,38 @@
+.artist-card {
+  background: #ffffff;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  max-width: 350px;
+}
+
+.artist-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.artist-card p {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .artist-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  }
+  .artist-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    gap: 0;
+  }
+}
